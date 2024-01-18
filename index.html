@@ -4,23 +4,39 @@
 
 <head>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Varela+Round&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
 
     <div id="header">
-        <p>test1</p>
+        <div id="logospace">
+            <img src="images/logomymails.png" id="logosrc">
+            <h1>MY</h1>
+            <h1>MAILS</h1>
+        </div>
+        <div id="BarreRecherche">
+            <input id="search-message" type="text" placeholder=" 🔎 Search message..." />
+            <button type="button" id="btn-search">Search</button>
+        </div>
     </div>
-    
-    <div id="container">  
 
-        <div id="menu">
-            <p>test2</p>
+    
+    <div id="Main">  
+        <div id="ColonneGauche">
+            <div id="BarreNouveauMessage">
+                <div id="ContenantNouveauMessage">
+                    <p>🔎 New Message...</p>
+                </div>
+
+                <button type="button" id="btn-add">Add</button>
+            </div>
         </div>
 
-        <div id="contenu">
-            <div id="introcontenu">
-                <p> Vous avez 6 nouveaux messages</p>
+        <div id="ColonneDroite">
+            <div id="BarreNombreMessage">
+                <p> Nombre de messages :   5</p>
 
             </div>
 
